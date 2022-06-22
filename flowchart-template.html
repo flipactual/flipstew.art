@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flowchart Template</title>
+<main>
+  <h1>Flowchart Template</h1>
+  <figure>
+    <img
+      style="max-width: 100%"
+      src="media/flowchart-template.png"
+      alt="Example flowchart based on that one flowchart we've all seen a million times but don't know where it came from">
+    <figcaption>Example flowchart based on that one flowchart we've all seen a million times but don't know where it came from</figcaption>
+  </figure> 
+  <p>This is how I use PlantUML to generate flowcharts</p>
+  <p>Flowcharts, or activity diagrams, are commonplace in PlantUML. This page is meant only to highlight the small bit of boilerplate I use and to encourage you to make flowcharts of your own</p>
+  <pre>
+@startuml
+!theme plain
+skinparam ConditionEndStyle hline
+skinparam ArrowHeadColor none
+
+title Should I Spank My Child?
+if (Are they old enough to understand reason?) then (yes)
+  :
+
+Then use reason
+
+;
+else (no)
+  :Then they're not 
+old enough to 
+understand the 
+reason you're
+striking them;
+endif
+:Stop hitting your child, asshole;
+
+@enduml
+  </pre>
+</main>
+<footer><hr><a href="/">Home</a><aside>Last modified Wednesday, June 22, 2022</aside></footer>

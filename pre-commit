@@ -5,6 +5,6 @@ echo 'Updating footers'
 for file in $(git diff --cached --name-only | grep -E '\.html$')
 do
   sed -i'.bak' -r -E "s#(<aside>Last modified )(.*)(</aside>)#\1$(date +'%A, %B %e, %Y')\3#g" "$file"
-  rm docs/**/*.bak
+  rm **/*.bak
   git add $file
 done

@@ -8,3 +8,6 @@ do
   rm "$file.bak"
   git add $file
 done
+
+optipng media/*.png
+git add media/*.png

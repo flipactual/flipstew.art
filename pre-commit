@@ -8,3 +8,11 @@ do
   rm "$file.bak"
   git add $file
 done
+
+echo 'Optimizing PNGs'
+
+for file in $(git diff --cached --name-only | grep -E '\.png$')
+do
+  optipng file
+  git add $file
+done

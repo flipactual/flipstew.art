@@ -13,6 +13,8 @@ echo 'Optimizing PNGs'
 
 for file in $(git diff --cached --name-only | grep -E '\.png$')
 do
-  optipng file
-  git add $file
+  if [[ -f "$file" ]]; then
+    test $file && optipng $file
+    git add $file
+  fi
 done

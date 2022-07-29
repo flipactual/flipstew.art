@@ -1,0 +1,7 @@
+#!/bin/sh
+
+file=$(basename "$1")
+dir=$(dirname "$1")
+
+convert -define jpeg:size=256x256 $1 \
+  -thumbnail '256x256>' "${dir}/${file%.*}-thumb.${file##*.}"

@@ -1,3 +1,4 @@
+body { font-size: 21px; }
 main, footer { margin: auto; max-width: 25em; }
 table { border-collapse: collapse; }
 figure, img { max-width: 100%; }

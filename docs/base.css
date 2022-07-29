@@ -1,4 +1,5 @@
 body { font-size: 21px; }
 main, footer { margin: auto; max-width: 25em; }
 table { border-collapse: collapse; }
-figure, img { max-width: 100%; }
+figure > table { max-width: 256px; }
+textarea { max-width: 100%; }

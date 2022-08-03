@@ -2,6 +2,9 @@ body { font-size: 21px; }
 main, footer { margin: auto; max-width: 50em; }
 table { border: 1px solid black; border-collapse: collapse; }
 th, td { border: 1px solid black; }
-figure > table { max-width: 256px; }
 textarea { max-width: 100%; }
 h1, h2, h3, h4, h5, h6 { clear: both; }
+figure { margin: 0; }
+figure > table { max-width: 256px; }
+figure.left > table { margin-right: 1em; }
+figure.right > table { margin-left: 1em; }

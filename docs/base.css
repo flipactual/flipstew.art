@@ -4,7 +4,7 @@ table { border: 1px solid black; border-collapse: collapse; }
 th, td { border: 1px solid black; }
 textarea { max-width: 100%; }
 h1, h2, h3, h4, h5, h6 { clear: both; }
-figure { margin: 0; }
+figure { margin: 0; margin-bottom: 1em; }
 figure > table { max-width: 256px; }
 figure.left > table { margin-right: 1em; }
 figure.right > table { margin-left: 1em; }

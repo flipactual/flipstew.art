@@ -1,6 +1,6 @@
 body { font-size: 21px; }
 main, footer { margin: auto; max-width: 50em; }
-table { border: 1px solid black; border-collapse: collapse; }
+table { width: 100%; border: 1px solid black; border-collapse: collapse; }
 th, td { border: 1px solid black; }
 textarea { max-width: 100%; }
 h1, h2, h3, h4, h5, h6 { clear: both; }

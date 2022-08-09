@@ -34,6 +34,7 @@
 
   <h2>Actions</h2>
   <p>Actions have categories which have no impact on gameplay or simulation but make interfaces cleaner</p>
+  <p>Dynamic action functionality is fundamental — templates are employed heavily to ensure unique experiences</p>
   <p>Actions have:
     <ol>
       <li>Possibility checks</li>
@@ -57,8 +58,9 @@
   <h3>Factors</h3>
   <p>Various factors influence possibility and probability for actions</p>
   <dl>
-    <dt><h4>Personality Traits</h4></dt>
+    <dt><h4>Personality Traits & Values</h4></dt>
     <dd>
+      <h5>Personality Traits</h5>
       <p>Personality traits are spectrums and -1 to 1 values</p>
       <p>Example personality traits include:</p>
       <ul>
@@ -75,7 +77,7 @@
         <li>Greedy - Generous</li>
         <li>Just - Arbitrary</li>
       </ul>
-      <h5>Archetypes</h5>
+      <h6>Archetypes</h6>
       <table>
         <tr><th>Innocent</th><td>Trusting</td><td>Chaste</td><td>Cowardly</td></tr>
         <tr><th>Visionary</th><td>Ambitious</td><td>Fickle</td><td>Paranoid</td></tr>
@@ -91,6 +93,9 @@
         <tr><th>Artist</th><td>Brave</td><td>Impatient</td><td>Lazy</td></tr>
       </table>
       <p>Characters have personality traits which change over time. An archetype can be determined based on a character's current traits for ease of communication</p>
+      <h5>Values</h5>
+      <p>Values map to personality traits that a character appreciates in others</p>
+      <p>For example, the personality trait spectrum Cowardly - Brave maps to the values Cowardice and Bravery</p>
     </dd>
     <dt><h4>Relationships</h4></dt>
     <dd>
@@ -113,10 +118,9 @@
       <p>For example, any character with some flour, water, and a source of heat can attempt to make bread, but it might not go so well the first time</p>
       <p>Skills range from 0 to 1</p>
     </dd>
-    <dt><h4>Values</h4></dt>
+    <dt><h4>Stats</h4></dt>
     <dd>
-      <p>Values map to personality traits that a character appreciates in others</p>
-      <p>For example, the personality trait spectrum Cowardly - Brave maps to the values Cowardice and Bravery</p>
+      <p>Stats are attributes like Strength and Intelligence and tracked as integers</p>
     </dd>
     <dt><h4>Conditions</h4></dt>
     <dd>
@@ -143,6 +147,11 @@
         <li>It's windy here</li>
       </ul>
     </dd>
+    <dt><h4>Characteristics</h4></dt>
+    <dd>
+      <p>Characteristics are arbitrary keys with arbitrary values representing any data not captured by the generic factors</p>
+    </dd>
+  </dl>
   <h2 id="achievements">Achievements</h2>
   <p>Achievements have no impact on gameplay or simulation but ease goal tracking for players</p>
   <p>Example achievements include:</p>

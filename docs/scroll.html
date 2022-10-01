@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="base.css">
+<title>Scroll</title>
+<main>
+  <h1>Scroll</h1>
+  <p>Notes.app takes too long to open. So does everything else. Brain goes fast, but not in good way</p>
+  <textarea cols="80" rows="20">
+import SwiftUI
+import Foundation
+
+struct ContentView: View {
+    @Environment(\.scenePhase) var scenePhase
+    @State var text: String = ""
+    let file = FileManager.default.url(forUbiquityContainerIdentifier: "iCloud.art.flipstew.Scroll")!.appendingPathComponent("Documents").appendingPathComponent("Scroll.txt")
+    func pull() {
+        do { try FileManager.default.startDownloadingUbiquitousItem(at: file) } catch {}
+    }
+    func read() -> String {
+        do { return try String(contentsOf: file, encoding: .utf8) } catch { return "" }
+    }
+    func write(_ text: String) {
+        do { try text.write(to: file, atomically: true, encoding: .utf8) } catch {}
+    }
+    var body: some View {
+        TextEditor(text: $text)
+            .padding()
+            .onChange(of: text) { newText in
+                write(newText)
+            }
+            .onChange(of: scenePhase) { newPhase in
+                if newPhase == .active {
+                    pull()
+                    text = read()
+                }
+            }
+    }
+}
+
+  </textarea>
+</main>
+<footer><hr><a href="/">Home</a><aside>Last modified Friday, July 29, 2022</aside></footer>

@@ -7,33 +7,27 @@
   <p>Notes.app takes too long to open. So does everything else. Brain goes fast, but not in good way</p>
   <textarea cols="80" rows="20">
 import SwiftUI
-import Foundation
 
-struct ContentView: View {
+@main
+struct ScrollApp: App {
     @Environment(\.scenePhase) var scenePhase
     @State var text: String = ""
     let file = FileManager.default.url(forUbiquityContainerIdentifier: "iCloud.art.flipstew.Scroll")!.appendingPathComponent("Documents").appendingPathComponent("Scroll.txt")
-    func pull() {
-        do { try FileManager.default.startDownloadingUbiquitousItem(at: file) } catch {}
-    }
     func read() -> String {
+        try? FileManager.default.startDownloadingUbiquitousItem(at: file)
         do { return try String(contentsOf: file, encoding: .utf8) } catch { return "" }
     }
     func write(_ text: String) {
-        do { try text.write(to: file, atomically: true, encoding: .utf8) } catch {}
+        try? text.write(to: file, atomically: true, encoding: .utf8)
     }
-    var body: some View {
-        TextEditor(text: $text)
-            .padding()
-            .onChange(of: text) { newText in
-                write(newText)
+    var body: some Scene {
+        WindowGroup {
+            ScrollView{
+                TextEditor(text: $text)
+                    .onChange(of: text) { write($0) }
+                    .onChange(of: scenePhase) { if $0 == .active { text = read() } }
             }
-            .onChange(of: scenePhase) { newPhase in
-                if newPhase == .active {
-                    pull()
-                    text = read()
-                }
-            }
+        }
     }
 }
 

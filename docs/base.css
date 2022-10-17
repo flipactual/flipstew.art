@@ -18,7 +18,7 @@ a {
 
 main {
   max-width: 35rem;
-  padding: 2rem;
+  padding: .75rem;
   margin: auto;
   font-size: 20px;
 }

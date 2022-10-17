@@ -1,11 +1,44 @@
-body { font-size: 21px; }
-main, footer { margin: auto; max-width: 50em; }
-table { width: 100%; border: 1px solid black; border-collapse: collapse; }
-th, td { border: 1px solid black; }
-textarea { max-width: 100%; }
-h1, h2, h3, h4, h5, h6 { clear: both; }
-figure { margin: 0; margin-bottom: 1em; }
-figure > table { max-width: 256px; }
-figure td { text-align: center; }
-figure.left > table { margin-right: 1em; }
-figure.right > table { margin-left: 1em; }
+body {
+  color: #111;
+}
+
+a {
+  color: #0074D9; 
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #2ECC40;
+  }
+  a {
+    color: #F012BE;
+  }
+}
+
+main {
+  max-width: 35rem;
+  padding: 2rem;
+  margin: auto;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+th, td {
+  border: 1px solid;
+}
+
+footer {
+  margin-top: 1em;
+  padding-top: .5em;
+  border-top: 1px dotted;
+}

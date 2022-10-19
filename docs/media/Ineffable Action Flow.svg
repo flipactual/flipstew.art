@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="151px" preserveAspectRatio="none" style="width:800px;height:151px;background:#FFFFFF;" version="1.1" viewBox="0 0 800 151" width="800px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="105" x="340.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="345.5" y="22.9951">Action Flow</text><!--MD5=[91afdfde1655eba022cace6737800e63]
+entity Possibility--><g id="elem_Possibility"><rect fill="#FF4136" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="7" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="17" y="67.292">Possibility</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="17" y="83.5889"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="17" y="99.8857">Filters actions down</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="17" y="116.1826">to those which</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="17" y="132.4795">are possible</text></g><!--MD5=[b41f05b515659bde8ba685f6c4d10387]
+entity Probability--><g id="elem_Probability"><rect fill="#FF851B" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="212" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="222" y="67.292">Probability</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="222" y="83.5889"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="222" y="99.8857">Takes a list of</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="222" y="116.1826">actions and applies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="222" y="132.4795">a weight to each one</text></g><!--MD5=[54eeaf6d1ad1c360d75fb5146316738a]
+entity Selection--><g id="elem_Selection"><rect fill="#FFDC00" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171" x="417.5" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="427.5" y="67.292">Selection</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="427.5" y="83.5889"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="427.5" y="99.8857">Randomly selects an</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="427.5" y="116.1826">action based on</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="427.5" y="132.4795">probabilities</text></g><!--MD5=[d54732b43a318dff8f71d999b99431d2]
+entity Outcome--><g id="elem_Outcome"><rect fill="#2ECC40" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="624" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="634" y="67.292">Outcome</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="634" y="83.5889">  </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="634" y="99.8857">Computes the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="634" y="116.1826">outcome of the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="634" y="132.4795">selected action</text></g><!--MD5=[679e0d30d54fc42a0faf554034b717f4]
+link Possibility to Probability--><g id="link_Possibility_Probability"><path codeLine="45" d="M177.283,94.7969 C187.106,94.7969 196.929,94.7969 206.752,94.7969 " fill="none" id="Possibility-to-Probability" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="211.889,94.7969,202.889,90.7969,206.889,94.7969,202.889,98.7969,211.889,94.7969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d1285424187df8c10905478df465c111]
+link Probability to Selection--><g id="link_Probability_Selection"><path codeLine="46" d="M382.297,94.7969 C392.201,94.7969 402.105,94.7969 412.009,94.7969 " fill="none" id="Probability-to-Selection" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="417.188,94.7969,408.188,90.7969,412.188,94.7969,408.188,98.7969,417.188,94.7969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1ce9541a12bbfd66bcd82b3f793f39de]
+link Selection to Outcome--><g id="link_Selection_Outcome"><path codeLine="47" d="M588.699,94.7969 C598.703,94.7969 608.708,94.7969 618.712,94.7969 " fill="none" id="Selection-to-Outcome" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="623.944,94.7969,614.944,90.7969,618.944,94.7969,614.944,98.7969,623.944,94.7969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1145e4b7663d2f727f77e9c927a8ac18]
+@startuml
+hide stereotype
+skinparam rectangle {
+  backgroundColor<<one>> #FF4136
+  backgroundColor<<two>> #FF851B
+  backgroundColor<<three>> #FFDC00 
+  backgroundColor<<four>>  #2ECC40
+} 
+skinparam note {
+  backgroundColor #7FDBFF
+}
+skinparam MinClassWidth 150
+skinparam SameClassWidth true
+
+title Action Flow
+
+rectangle Possibility <<one>> [
+  **Possibility**
+
+  Filters actions down 
+  to those which 
+  are possible
+]
+rectangle Probability <<two>> [
+  **Probability**
+
+  Takes a list of 
+  actions and applies 
+  a weight to each one
+]
+rectangle Selection <<three>> [
+  **Selection**
+
+  Randomly selects an 
+  action based on 
+  probabilities
+]
+rectangle Outcome <<four>> [
+  **Outcome**
+    
+  Computes the 
+  outcome of the 
+  selected action
+]
+
+Possibility -> Probability
+Probability -> Selection
+Selection -> Outcome
+@enduml
+
+PlantUML version 1.2022.10beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

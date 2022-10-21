@@ -6,6 +6,12 @@
 <main>
   <h1>Ineffable</h1>
   <h2>What is it?</h2>
+  <figure>
+    <img
+      src="media/Ineffable Gameplay Loop.svg"
+      alt="Diagram of Ineffable's Gameplay Loop">
+    <figcaption>Diagram of Ineffable's Gameplay Loop</figcaption>
+  </figure>
   <p>Ineffable is a simulation engine for one-of-a-kind, interactive narrative experiences in living worlds that grow along with the reader/player</p>
   <p>It's also whatever proof-of-concept game I create along with it</p>
   <p>The guiding concept is to give you more options each turn than any other game, and if it’s an option for you, it’s an option for non-player characters as well</p>
@@ -16,17 +22,19 @@
 
   <h2>Actions</h2>
   <figure>
-    <img src="media/Ineffable Action Flow.svg" alt="Diagram of Ineffable's Action Flow">
+    <img
+      src="media/Ineffable Action Flow.svg"
+      alt="Diagram of Ineffable's Action Flow">
     <figcaption>Diagram of Ineffable's Action Flow</figcaption>
   </figure>
   <p>Actions have categories which have no impact on gameplay or simulation but make interfaces cleaner</p>
   <p>Dynamic action functionality is fundamental — templates are employed heavily to ensure unique experiences</p>
   <p>Actions have:
-  <ol>
-    <li>Possibility checks</li>
-    <li>Probability checks</li>
-    <li>Effects</li>
-  </ol>
+    <ol>
+      <li>Possibility checks</li>
+      <li>Probability checks</li>
+      <li>Effects</li>
+    </ol>
   </p>
 
   <p>Example actions include:</p>
@@ -43,20 +51,15 @@
 
   <h3>Factors</h3>
   <figure>
-    <img src="media/Ineffable Modifiers.svg" alt="Diagram of Ineffable's Modifiers">
+    <img
+      src="media/Ineffable Modifiers.svg"
+      alt="Diagram of Ineffable's Modifiers">
     <figcaption>Diagram of Ineffable's Modifiers</figcaption>
-  </figure>
-
-  <figure>
-    <img src="media/Ineffable Percentages.svg" alt="Diagram of Ineffable's Percentages">
-    <figcaption>Diagram of Ineffable's Percentages</figcaption>
   </figure>
 
   <p>Various factors influence possibility and probability for actions</p>
   <dl>
-    <dt>
-      <h4>Personality Traits & Values</h4>
-    </dt>
+    <dt><h4>Personality Traits & Values</h4></dt>
     <dd>
       <h5>Personality Traits</h5>
       <p>Personality traits are spectrums and -1 to 1 values</p>
@@ -76,18 +79,18 @@
         <li>Just - Arbitrary</li>
       </ul>
       <h6>Archetypes</h6>
-      <figure>
-        <img src="media/Ineffable Archetypes.svg" alt="Diagram of Ineffable's Archetypes">
-        <figcaption>Diagram of Ineffable's Archetypes</figcaption>
-      </figure>
+  <figure>
+    <img
+      src="media/Ineffable Archetypes.svg"
+      alt="Diagram of Ineffable's Archetypes">
+    <figcaption>Diagram of Ineffable's Archetypes</figcaption>
+  </figure>
       <p>Characters have personality traits which change over time. An archetype can be determined based on a character's current traits for ease of communication</p>
       <h5>Values</h5>
       <p>Values map to personality traits that a character appreciates in others</p>
       <p>For example, the personality trait spectrum Cowardly - Brave maps to the values Cowardice and Bravery</p>
     </dd>
-    <dt>
-      <h4>Relationships</h4>
-    </dt>
+    <dt><h4>Relationships</h4></dt>
     <dd>
       <p>Relationships have types and 0 to 1 values</p>
       <p>Example types of relationships include:</p>
@@ -102,30 +105,22 @@
         <li>Apprentice</li>
       </ul>
     </dd>
-    <dt>
-      <h4>Skills</h4>
-    </dt>
+    <dt><h4>Skills</h4></dt>
     <dd>
       <p>Some actions are associated directly with skills which, partially, determine their outcomes</p>
       <p>For example, any character with some flour, water, and a source of heat can attempt to make bread, but it might not go so well the first time</p>
       <p>Skills range from 0 to 1</p>
     </dd>
-    <dt>
-      <h4>Stats</h4>
-    </dt>
+    <dt><h4>Stats</h4></dt>
     <dd>
       <p>Stats are attributes like Strength and Intelligence and tracked as integers</p>
     </dd>
-    <dt>
-      <h4>Conditions</h4>
-    </dt>
+    <dt><h4>Conditions</h4></dt>
     <dd>
       <p>Characters can have and obtain temporary or permanent conditions which affect what they are capable of</p>
       <p>For example, a character might become hungover which could detrimentally affect a wide variety of actions</p>
     </dd>
-    <dt>
-      <h4>Emotional States</h4>
-    </dt>
+    <dt><h4>Emotional States</h4></dt>
     <dd>
       <p>Emotional states are spectrums and -1 to 1 values</p>
       <p>Example emotional states include:</p>
@@ -135,9 +130,7 @@
         <li>Depressed - Content</li>
       </ul>
     </dd>
-    <dt>
-      <h4>World State</h4>
-    </dt>
+    <dt><h4>World State</h4></dt>
     <dd>
       <p>World state includes everything that isn't related to character state</p>
       <p>World state examples include:</p>
@@ -147,9 +140,7 @@
         <li>It's windy here</li>
       </ul>
     </dd>
-    <dt>
-      <h4>Characteristics</h4>
-    </dt>
+    <dt><h4>Characteristics</h4></dt>
     <dd>
       <p>Characteristics are arbitrary keys with arbitrary values representing any data not captured by the generic factors</p>
     </dd>

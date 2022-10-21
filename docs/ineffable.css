@@ -1,23 +1,23 @@
 /* Colors from https://randoma11y.com/?color=orange */
 
 body {
-  background: orange;
-  color: #254346;
+  background: #ecf897;
+  color: black;
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
 }
 
 a {
-  color: #254346; 
+  color: black; 
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #254346;
-    color: orange;
+    background: black;
+    color: #ecf897;
   }
   a {
-    color: orange;
+    color: #ecf897;
   }
 }
 

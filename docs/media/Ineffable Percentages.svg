@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="543px" preserveAspectRatio="none" style="width:692px;height:543px;background:#ECF897;" version="1.1" viewBox="0 0 692 543" width="692px" zoomAndPan="magnify"><defs/><g><!--MD5=[03c9795141fffc1586b10a901fd13311]
+cluster a--><g id="cluster_a"><rect fill="#ECF897" height="103" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="551" x="76" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="296" y="85.9951">Relationships</text></g><!--MD5=[fc729ae40511b638ec1ee6febf041dd5]
+cluster b--><g id="cluster_b"><rect fill="#ECF897" height="103" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="551" x="76" y="223"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="147" x="278" y="237.9951">Personality Traits</text></g><!--MD5=[b3179ce4f793cc951a1964cbf548eaa1]
+cluster c--><g id="cluster_c"><rect fill="#ECF897" height="103" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="551" x="76" y="375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="287" y="389.9951">Personal States</text></g><!--MD5=[c4f3701c64e0ad5d8faa92eb398c39a4]
+entity Absence--><g id="elem_Absence"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="119.5" y="114"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="133.5" y="136.9951">Absence</text></g><!--MD5=[83063b114488b14658079d79a22d801f]
+entity Friend--><g id="elem_Friend"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="507.5" y="114"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="530" y="136.9951">Friend</text></g><!--MD5=[38a9b915a884b0fd6b2212c1d9173368]
+entity Reserved--><g id="elem_Reserved"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="119.5" y="266"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="130.5" y="288.9951">Reserved</text></g><!--MD5=[af97788daa194f7aef443c24f68a66c0]
+entity Sociable--><g id="elem_Sociable"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="507.5" y="266"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="521" y="288.9951">Sociable</text></g><!--MD5=[2d162b10b8b9e4e7fa34e6b4b6061d6e]
+entity Tired--><g id="elem_Tired"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="119.5" y="418"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="42" x="146" y="440.9951">Tired</text></g><!--MD5=[3a6141887ae78315717bc36234173e49]
+entity Rested--><g id="elem_Rested"><rect fill="#ECF897" height="36.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="95" x="507.5" y="418"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="527" y="440.9951">Rested</text></g><!--MD5=[ef23eafe75429081b5708ce6252eb946]
+link Absence to Friend--><g id="link_Absence_Friend"><path codeLine="27" d="M214.576,132 C289.145,132 432.717,132 507.339,132 " fill="none" id="Absence-Friend" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="329" y="125.0669">0.0 - 1.0</text></g><!--MD5=[5c307df6f09ffe5c2b4d12c9f5028f99]
+link Reserved to Sociable--><g id="link_Reserved_Sociable"><path codeLine="27" d="M214.576,284 C289.145,284 432.717,284 507.339,284 " fill="none" id="Reserved-Sociable" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="329" y="277.0669">0.0 - 1.0</text></g><!--MD5=[46a43d27976c2917f63d85a21f288559]
+link Tired to Rested--><g id="link_Tired_Rested"><path codeLine="27" d="M214.576,436 C289.145,436 432.717,436 507.339,436 " fill="none" id="Tired-Rested" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="329" y="429.0669">0.0 - 1.0</text></g><!--MD5=[a3deb68e4aebbeb113ddd128f6b25b58]
+link a to b--><!--MD5=[89c5e88c1b3a23b788935d6fc97d11bf]
+link b to c--><!--MD5=[a7a5bfb28cdae859228e2b9a69846d6c]
+@startuml
+<style>
+root {
+  Margin 64
+}
+</style>
+hide stereotype
+hide circle
+hide empty methods
+skinparam rectangle {
+  backgroundColor #ecf897
+  borderColor #000000
+} 
+skinparam backgroundColor #ecf897
+skinparam MinClassWidth 75
+skinparam SameClassWidth true
+skinparam defaulttextalignment center
+
+!procedure range($id, $title, $a, $b)
+rectangle "$title" as $id {
+  rectangle $a [
+    **$a**
+  ]
+  rectangle $b [
+    **$b**
+  ]
+}
+$a -r- $b : \t\t\t0.0 - 1.0\t\t\t\t
+!endprocedure
+
+range("a", "Relationships", "Absence", "Friend")
+range("b", "Personality Traits", "Reserved", "Sociable")
+range("c", "Personal States", "Tired", "Rested")
+
+a -d[hidden]-> b
+b -d[hidden]-> c
+@enduml
+
+@startuml
+<style>
+root {
+  Margin 64
+}
+</style>
+hide stereotype
+hide circle
+hide empty methods
+skinparam rectangle {
+  backgroundColor #ecf897
+  borderColor #000000
+} 
+skinparam backgroundColor #ecf897
+skinparam MinClassWidth 75
+skinparam SameClassWidth true
+skinparam defaulttextalignment center
+
+
+rectangle "Relationships" as a {
+  rectangle Absence [
+    **Absence**
+  ]
+  rectangle Friend [
+    **Friend**
+  ]
+}
+Absence -r- Friend : \t\t\t0.0 - 1.0\t\t\t\t
+rectangle "Personality Traits" as b {
+  rectangle Reserved [
+    **Reserved**
+  ]
+  rectangle Sociable [
+    **Sociable**
+  ]
+}
+Reserved -r- Sociable : \t\t\t0.0 - 1.0\t\t\t\t
+rectangle "Personal States" as c {
+  rectangle Tired [
+    **Tired**
+  ]
+  rectangle Rested [
+    **Rested**
+  ]
+}
+Tired -r- Rested : \t\t\t0.0 - 1.0\t\t\t\t
+
+a -d[hidden]-> b
+b -d[hidden]-> c
+@enduml
+
+PlantUML version 1.2022.10beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

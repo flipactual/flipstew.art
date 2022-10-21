@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="237px" preserveAspectRatio="none" style="width:923px;height:237px;background:#ECF897;" version="1.1" viewBox="0 0 923 237" width="923px" zoomAndPan="magnify"><defs/><g><!--MD5=[91afdfde1655eba022cace6737800e63]
-entity Possibility--><g id="elem_Possibility"><rect fill="#ECF897" height="101.4844" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="170" x="71" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="81" y="93.9951">Possibility</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="81" y="110.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="81" y="126.5889">Filters actions down</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="81" y="142.8857">to those which</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="81" y="159.1826">are possible</text></g><!--MD5=[b41f05b515659bde8ba685f6c4d10387]
-entity Probability--><g id="elem_Probability"><rect fill="#ECF897" height="101.4844" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="170" x="276" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="286" y="93.9951">Probability</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="286" y="110.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="286" y="126.5889">Takes a list of</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="286" y="142.8857">actions and applies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="286" y="159.1826">a weight to each one</text></g><!--MD5=[54eeaf6d1ad1c360d75fb5146316738a]
-entity Selection--><g id="elem_Selection"><rect fill="#ECF897" height="101.4844" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="171" x="481.5" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="491.5" y="93.9951">Selection</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="491.5" y="110.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="491.5" y="126.5889">Randomly selects an</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="491.5" y="142.8857">action based on</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="491.5" y="159.1826">probabilities</text></g><!--MD5=[d54732b43a318dff8f71d999b99431d2]
-entity Outcome--><g id="elem_Outcome"><rect fill="#ECF897" height="101.4844" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="170" x="688" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="698" y="93.9951">Outcome</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="698" y="110.292">  </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="698" y="126.5889">Computes the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="698" y="142.8857">outcome of the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="698" y="159.1826">selected action</text></g><!--MD5=[679e0d30d54fc42a0faf554034b717f4]
-link Possibility to Probability--><g id="link_Possibility_Probability"><path codeLine="47" d="M241.283,121.5 C251.106,121.5 260.929,121.5 270.752,121.5 " fill="none" id="Possibility-to-Probability" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="275.889,121.5,266.889,117.5,270.889,121.5,266.889,125.5,275.889,121.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d1285424187df8c10905478df465c111]
-link Probability to Selection--><g id="link_Probability_Selection"><path codeLine="48" d="M446.297,121.5 C456.201,121.5 466.105,121.5 476.009,121.5 " fill="none" id="Probability-to-Selection" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="481.188,121.5,472.188,117.5,476.188,121.5,472.188,125.5,481.188,121.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1ce9541a12bbfd66bcd82b3f793f39de]
-link Selection to Outcome--><g id="link_Selection_Outcome"><path codeLine="49" d="M652.699,121.5 C662.703,121.5 672.708,121.5 682.712,121.5 " fill="none" id="Selection-to-Outcome" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="687.944,121.5,678.944,117.5,682.944,121.5,678.944,125.5,687.944,121.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6523411135d1939b1ad87580e85b5734]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="366px" preserveAspectRatio="none" style="width:868px;height:366px;background:#ECF897;" version="1.1" viewBox="0 0 868 366" width="868px" zoomAndPan="magnify"><defs/><g><!--MD5=[91afdfde1655eba022cace6737800e63]
+entity Possibility--><g id="elem_Possibility"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="222" x="71" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="81" y="93.9951">Possibility</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="81" y="110.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="81" y="126.5889">Filters actions down to what</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="81" y="142.8857">is possible</text></g><!--MD5=[b41f05b515659bde8ba685f6c4d10387]
+entity Probability--><g id="elem_Probability"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="220" x="72" y="216"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="82" y="238.9951">Probability</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="82" y="255.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="82" y="271.5889">Applies a weight to each</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="82" y="287.8857">action</text></g><!--MD5=[54eeaf6d1ad1c360d75fb5146316738a]
+entity Selection--><g id="elem_Selection"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="220" x="327" y="216"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="337" y="238.9951">Selection</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="337" y="255.292"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="337" y="271.5889">Randomly selects an action</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="337" y="287.8857">based on probabilities</text></g><!--MD5=[d54732b43a318dff8f71d999b99431d2]
+entity Outcome--><g id="elem_Outcome"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="220" x="328" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="338" y="93.9951">Outcome</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="338" y="110.292">  </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="338" y="126.5889">Computes the outcome of</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="338" y="142.8857">the action</text></g><!--MD5=[b95fa6c899bab77c6715f5062de5f87f]
+entity Backpropagation--><g id="elem_Backpropagation"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="220" x="583" y="71"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="593" y="93.9951">Backpropagation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="593" y="110.292">  </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="593" y="126.5889">Character learns from the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="593" y="142.8857">action's outcome</text></g><!--MD5=[5d5bd08e445b330b46749d080f546d09]
+entity Next--><g id="elem_Next"><rect fill="#ECF897" height="85.1875" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="220" x="583" y="216"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="593" y="238.9951">Next</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="593" y="255.292">  </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="593" y="271.5889">Repeat action flow for the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="593" y="287.8857">next character</text></g><!--MD5=[679e0d30d54fc42a0faf554034b717f4]
+link Possibility to Probability--><g id="link_Possibility_Probability"><path codeLine="55" d="M182,156.246 C182,173.28 182,193.056 182,210.5864 " fill="none" id="Possibility-to-Probability" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="182,215.9494,186,206.9494,182,210.9494,178,206.9494,182,215.9494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d1285424187df8c10905478df465c111]
+link Probability to Selection--><g id="link_Probability_Selection"><path codeLine="56" d="M292.068,258.5 C301.951,258.5 311.835,258.5 321.718,258.5 " fill="none" id="Probability-to-Selection" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="326.886,258.5,317.886,254.5,321.886,258.5,317.886,262.5,326.886,258.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[31f0984411fe22742514e6e6e05aaecb]
+reverse link Outcome to Selection--><g id="link_Outcome_Selection"><path codeLine="57" d="M437.671,161.615 C437.548,179.163 437.41,198.937 437.291,215.9494 " fill="none" id="Outcome-backto-Selection" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="437.708,156.246,433.6464,165.2184,437.6737,161.2459,441.6462,165.2732,437.708,156.246" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aa20f61bc392a0e75647afd1d5026c28]
+link Outcome to Backpropagation--><g id="link_Outcome_Backpropagation"><path codeLine="58" d="M548.068,113.5 C557.951,113.5 567.835,113.5 577.718,113.5 " fill="none" id="Outcome-to-Backpropagation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="582.886,113.5,573.886,109.5,577.886,113.5,573.886,117.5,582.886,113.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7af8b8f69d674862fb776d11bef88074]
+link Backpropagation to Next--><g id="link_Backpropagation_Next"><path codeLine="59" d="M693,156.246 C693,173.28 693,193.056 693,210.5864 " fill="none" id="Backpropagation-to-Next" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="693,215.9494,697,206.9494,693,210.9494,689,206.9494,693,215.9494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b48f1e4db629dcc9c82a8d19724f388b]
 @startuml
 <style>
 root {
@@ -21,41 +25,51 @@ skinparam note {
   backgroundColor #7FDBFF
 }
 skinparam backgroundColor #ecf897
-skinparam MinClassWidth 150
+skinparam MinClassWidth 200
 skinparam SameClassWidth true
 
-rectangle Possibility <<one>> [
+rectangle Possibility [
   **Possibility**
 
-  Filters actions down 
-  to those which 
-  are possible
+  Filters actions down to what
+ is possible
 ]
-rectangle Probability <<two>> [
+rectangle Probability [
   **Probability**
 
-  Takes a list of 
-  actions and applies 
-  a weight to each one
+  Applies a weight to each 
+  action
 ]
-rectangle Selection <<three>> [
+rectangle Selection [
   **Selection**
 
-  Randomly selects an 
-  action based on 
-  probabilities
+  Randomly selects an action 
+  based on probabilities
 ]
-rectangle Outcome <<four>> [
+rectangle Outcome [
   **Outcome**
     
-  Computes the 
-  outcome of the 
-  selected action
+  Computes the outcome of 
+  the action
+]
+rectangle Backpropagation [
+  **Backpropagation**
+    
+  Character learns from the 
+  action's outcome
+]
+rectangle Next [
+  **Next**
+    
+  Repeat action flow for the 
+  next character
 ]
 
-Possibility -> Probability
-Probability -> Selection
-Selection -> Outcome
+Possibility -d-> Probability
+Probability -r-> Selection
+Selection -u-> Outcome
+Outcome -r-> Backpropagation
+Backpropagation -d-> Next
 @enduml
 
 PlantUML version 1.2022.10beta2(Unknown compile time)

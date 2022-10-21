@@ -1,24 +1,37 @@
 /* Colors from https://randoma11y.com/?color=orange */
 
+:root {
+  --bg: #9ddacb;
+  --fg: #031a18;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #031a18;
+    --fg: #9ddacb;
+  }
+}
+
 body {
-  background: #ecf897;
-  color: black;
+  background: var(--bg);
+  color: var(--fg);
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
 }
 
-a {
-  color: black; 
+h1 {
+  font-size: 4rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: black;
-    color: #ecf897;
-  }
-  a {
-    color: #ecf897;
-  }
+blockquote {
+  margin-left: 0;
+  padding-left: 2rem;
+  border-left: .25rem solid;
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--fg);
 }
 
 main {
@@ -37,7 +50,8 @@ table {
   border: 1px solid;
 }
 
-th, td {
+th,
+td {
   border: 1px solid;
 }
 

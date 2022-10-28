@@ -59,11 +59,11 @@ img {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid;
 }
 
 th,
 td {
+  padding: 1rem .5rem;
   border: 1px solid;
 }
 

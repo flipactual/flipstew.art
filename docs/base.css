@@ -1,14 +1,14 @@
 /* Colors from https://randoma11y.com/ */
 
 :root {
-  --bg: #f5f0a6;
-  --fg: #981d1f;
+  --bg: #dc6e22;
+  --fg: #2f001c;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #981d1f;
-    --fg: #f5f0a6;
+    --bg: #2f001c;
+    --fg: #dc6e22;
   }
 }
 

@@ -13,6 +13,7 @@
 }
 
 body {
+  margin: 0;
   background: var(--bg);
   color: var(--fg);
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -66,17 +67,18 @@ td {
   border: 1px solid;
 }
 
-footer {
-  margin: 2em auto;
-  padding-top: .5em;
-  border-top: 1px dotted;
-}
-
 figure {
   margin: 3rem auto;
 }
 
 figcaption {
   margin-top: 1rem;
+  text-align: center;
+}
+
+footer {
+  margin-top: 6rem;
+  padding: 2rem 0;
+  border-top: .5rem solid;
   text-align: center;
 }

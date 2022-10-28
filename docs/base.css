@@ -13,7 +13,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 1rem;
   background: var(--bg);
   color: var(--fg);
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

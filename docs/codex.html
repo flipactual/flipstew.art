@@ -1,13 +1,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="base.css?2022-10-28-3">
+<style>
+  /* Colors from https://randoma11y.com/ */
+  
+  :root {
+    --bg: #d6d59b;
+    --fg: #3a2dbc;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #3a2dbc;
+      --fg: #d6d59b;
+    }
+  }
+</style>
 <title>Codex</title>
 <main>
   <h1>Codex</h1>
   <figure>
     <img
-      src="media/codex-a.png"
-      alt="Screenshot of Codex's document view">
+      src="media/codex.png"
+      alt="Screenshots of Codex">
     <figcaption>Screenshot of Codex's document view</figcaption>
   </figure>
     <p>The other PKMs use tech like Electron and React Native. This one has a 3D graph view that performs better with 50,000 physics bodies than those apps do idling</p>

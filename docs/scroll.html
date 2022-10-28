@@ -1,15 +1,35 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="base.css">
+<style>
+  /* Colors from https://randoma11y.com/ */
+  
+  :root {
+    --bg: #fc7359;
+    --fg: #0c1268;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c1268;
+      --fg: #fc7359;
+    }
+  }
+</style>
 <title>Scroll</title>
 <main>
   <h1>Scroll</h1>
-  <img src="media/scroll.png">
+  <figure>
+      <img src="media/scroll.png">
+      <figcaption>Screenshot of the application</figcaption>
+  </figure>
+  <h2>What is it?</h2>
   <p>Notes.app takes too long to open. So does everything else. Can't keep up with the mind</p>
   <p>This iOS application presents a simple text field filling all available space and syncing to iCloud Drive with every change making it ideal for quickly capturing thoughts</p>
   <p>Scroll is feature-complete at <25 lines of Swift, but I would like to see it pass <a href="https://www.hogbaysoftware.com/posts/moby-dick-workout/">The Moby Dick Workout</a> eventually</p>
+  <h2>Code</h2>
   <p>The necessary code is provided below – I hope this tiny application is as useful for you as it has been for me</p>
-  <textarea cols="80" rows="20">
+  <pre>
 import SwiftUI
 
 @main
@@ -34,7 +54,6 @@ struct ScrollApp: App {
         }
     }
 }
-
-  </textarea>
+  </pre>
   <footer><a href="/">← Home</a></footer>
 </main>

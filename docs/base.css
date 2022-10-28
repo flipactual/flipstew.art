@@ -77,6 +77,7 @@ figcaption {
 }
 
 pre {
+  overflow-x: scroll;
   padding: 1rem;
   background-color: var(--fg);
   color: var(--bg);

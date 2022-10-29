@@ -1,15 +1,19 @@
-/* Colors from https://randoma11y.com/ */
-
 :root {
-  --bg: #dc6e22;
-  --fg: #2f001c;
+  --bg: #2ECC40;
+  --fg: #111111;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #2f001c;
-    --fg: #dc6e22;
+    --bg: #111111;
+    --fg: #2ECC40;
   }
+}
+
+html {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 1.5;
 }
 
 body {
@@ -17,7 +21,13 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.5;
+}
+
+main {
+  max-width: 70ch;
+  margin: .75rem;
+  margin: auto;
+  padding: 2rem 0 2rem;
 }
 
 blockquote {
@@ -31,27 +41,23 @@ a {
   color: var(--fg);
 }
 
-h1 {
+h1, h2, h3 {
   margin-top: 0;
+}
+
+h1 {
   font-size: 3rem;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-
-h3 {
   font-size: 2rem;
   font-weight: 400;
 }
 
-main {
-  max-width: 80ch;
-  margin: .75rem;
-  margin: auto;
-  padding: 2rem 0 2rem;
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 img {
@@ -94,6 +100,7 @@ td {
 }
 
 figure {
+  width: 90%;
   margin: 3rem auto;
 }
 
@@ -111,12 +118,13 @@ pre {
 
 dt {
   padding: 1rem .5rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 200;
 }
 
 dt + dd:not(:empty) {
-  border-top: 1px dashed;
+  padding: .5rem 1.5rem;
+  border: 1px dashed;
 }
 
 dd {

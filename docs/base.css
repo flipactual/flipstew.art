@@ -11,13 +11,13 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 200;
-  line-height: 2;
+  line-height: 1.75;
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
   background: var(--bg);
   color: var(--fg);
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -25,9 +25,8 @@ body {
 
 main {
   max-width: 70ch;
-  margin: .75rem;
+  padding: 2.5rem .5rem;
   margin: auto;
-  padding: 2rem 0 2rem;
 }
 
 blockquote {
@@ -43,6 +42,7 @@ a {
 
 h1, h2, h3 {
   margin-top: 0;
+  line-height: 1;
 }
 
 h1 {
@@ -106,8 +106,16 @@ figure {
 figure.left {
   clear: both;
   float: left;
-  margin: 0 1.5rem 1.5rem 0;
+  margin: 0 1.5rem;
   width: 50%;
+}
+
+
+@media (max-width: 800px) {
+  figure.left {
+    margin: 3rem auto;
+    width: 100%;
+  }
 }
 
 figure img {

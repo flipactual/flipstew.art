@@ -99,6 +99,17 @@ td {
   border: 1px solid;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(calc(35ch - 1rem), 100%), 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.grid > figure {
+  margin: 0 0 1rem 0;
+}
+
 figure {
   margin: 3rem auto;
 }
@@ -109,7 +120,6 @@ figure.left {
   margin: 0 1.5rem;
   width: 50%;
 }
-
 
 @media (max-width: 800px) {
   figure.left {

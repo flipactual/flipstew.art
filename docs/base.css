@@ -144,20 +144,30 @@ pre {
   color: var(--bg);
 }
 
+dl {
+  margin-bottom: 4.5rem;
+}
+
+dl em {
+  font-weight: 300;
+}
+
+
 dt {
   padding: 1rem .5rem;
   font-size: 1.25rem;
   font-weight: 200;
+  border-bottom: 1px dashed;
 }
 
 dt + dd:not(:empty) {
+  margin-bottom: 2rem;
   padding: .5rem 1.5rem;
-  border: 1px dashed;
 }
 
-dd {
+/* dd {
   margin-bottom: 2rem;
-}
+} */
 
 footer {
   margin-top: 6rem;
